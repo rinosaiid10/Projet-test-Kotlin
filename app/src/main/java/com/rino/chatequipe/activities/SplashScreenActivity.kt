@@ -14,7 +14,7 @@ import com.rino.chatequipe.R
 
            //pour ajouter une durée d'attente avec handler
                  Handler(Looper.getMainLooper()).postDelayed({
-          Intent(this, AuthentificationActivityActivity ::class.java).also {
+          Intent(this, HomeActivity ::class.java).also {
               startActivity(it)
           }
           finish()
